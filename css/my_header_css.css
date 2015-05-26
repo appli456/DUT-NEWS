@@ -1,0 +1,125 @@
+
+/*垂直居中*/
+.search_button,.search_input{
+    vertical-align: middle;
+}
+
+
+/*文本输入框*/
+.search_input{
+    float: none;
+    width: 200px;
+    height: 34px;
+    margin-left: 60px;
+    border: 1px solid #6fdcc9;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+
+/*点击文本输入框*/
+.search_input:focus{
+    border: 1px solid #000000;
+}
+
+/*按钮*/
+.search_button{
+    float: none;
+    background-color: #5262ff;
+    color: #FFFFFF;
+    width: 70px;
+    height: 34px;
+    margin: 10px 5px 10px 0;
+    border-width: 0;
+    border-color: #5262ff;
+    border-style: solid;
+}
+
+/*logo*/
+.img_logo{
+    clear: left;
+    float: left;
+}
+
+/*投稿图标*/
+.img_search_list_right{
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 10px 15px;
+}
+
+/*下级导航栏背景*/
+.navigation_list{
+    width: 1024px;
+    padding: 0;
+    height: 58px;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    /*overflow: hidden;*/
+    float: none;
+    font-weight: bold;
+}
+/*导航栏*/
+.navigation_list_menu{
+    font-size: 20px;
+    z-index: 3;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.navigation_list_menu a{
+    display: block;
+    padding: 2px 15px;
+    border-width: 3px;
+    border-color: transparent;
+}
+
+.navigation_list_menu ul{
+    float: left;
+}
+.navigation_list_menu li{
+    float: left;
+    position: relative;
+}
+.navigation_list_menu li a{
+    display: block;
+    border-right-style: solid;
+    background-clip: padding-box;
+}
+/*临时隐藏低级菜单*/
+.navigation_list_menu li:last-child a{
+    border-right-style: none;
+}
+
+.navigation_list_menu li ul{
+    width: 7em;
+    display: none;
+    position: absolute;
+    background-color: #4b86ff;
+    left: 0;
+    top: 100%;
+    font-size: 16px;
+    font-weight: normal;
+}
+.navigation_list_menu li li a{
+    border-right-style: none;
+    border-top-style: solid;
+}
+.navigation_list_menu li li{
+    float: none;
+}
+
+.navigation_list_menu li:hover > ul{
+    display: block;
+}
+
+.navigation_boundary{
+    height: 2px;
+    background: #000000;
+}
+
+header form{
+    float: left;
+}

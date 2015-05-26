@@ -1,0 +1,86 @@
+.foot{
+    width: 1024px;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 0;
+}
+.else_link{
+    margin: 0 180px;
+    float: left;
+    color: #999999;
+}
+.else_link a{
+    color: #999999;
+    display: block;
+    font-size: 12px;
+    padding: 3px 16px;
+}
+
+.else_link ul{
+    box-sizing: border-box;
+    padding: 5px 10px 3px;
+    overflow: hidden;
+}
+.else_link li{
+    float: left;
+}
+.else_link li + li a{
+    border-left: 1px solid #999999;
+}
+
+.college_web{
+    margin: 0 45px;
+    float: left;
+    color: #999999;
+}
+.college_web a{
+    color: #999999;
+    display: block;
+    font-size: 12px;
+    padding: 3px 16px;
+}
+
+.college_web ul{
+    box-sizing: border-box;
+    padding: 5px 10px 3px;
+    overflow: hidden;
+}
+.college_web li{
+    float: left;
+}
+.college_web li + li a{
+    border-left: 1px solid #999999;
+}
+
+.friend_links{
+    float: left;
+    color: #999999;
+    margin: 0 241px;
+}
+.friend_links a{
+    color: #999999;
+    display: block;
+    font-size: 12px;
+    padding: 3px 16px;
+}
+
+.friend_links ul{
+    box-sizing: border-box;
+    padding: 5px 10px 3px;
+    overflow: hidden;
+}
+.friend_links li{
+    float: left;
+}
+.friend_links li + li a{
+    border-left: 1px solid #999999;
+}
+
+.copyright{
+    width: 1024px;
+    float: left;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 12px;
+}
